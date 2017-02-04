@@ -16,9 +16,26 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        //打开调试日志
+        UMSocialManager.default().openLog(true)
+        //设置友盟appkey
+        UMSocialManager.default().umSocialAppkey = "5799831be0f55abd2d002b86"
+        
+        UMSocialManager.default().setPlaform(.sina, appKey: "901497621", appSecret: "cb77e257e6aa7407ccbfe36142955865", redirectURL: "http://mobile.umeng.com/social")
+        
+        
+        
+        
         return true
     }
-
+    
+    func application(_ app: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any] = [:]) -> Bool {
+        let result = UMSocialManager.default().handleOpen(url)
+        if !result {
+            //其他如支付SDK的回调放这里
+        }
+        return result
+    }
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
         // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.
