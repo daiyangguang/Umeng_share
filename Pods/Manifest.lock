@@ -1,0 +1,103 @@
+PODS:
+  - UMengUShare/Core (6.2.2):
+    - UMengUShare/Network
+  - UMengUShare/Network (6.2.2)
+  - UMengUShare/Plugin/IDFA (6.2.2):
+    - UMengUShare/Core
+  - UMengUShare/Social/AlipayShare (6.2.2):
+    - UMengUShare/Core
+  - UMengUShare/Social/DingDing (6.2.2):
+    - UMengUShare/Core
+  - UMengUShare/Social/Douban (6.2.2):
+    - UMengUShare/Core
+  - UMengUShare/Social/DropBox (6.2.2):
+    - UMengUShare/Core
+  - UMengUShare/Social/Email (6.2.2):
+    - UMengUShare/Core
+  - UMengUShare/Social/EverNote (6.2.2):
+    - UMengUShare/Core
+  - UMengUShare/Social/Facebook (6.2.2):
+    - UMengUShare/Core
+  - UMengUShare/Social/Flickr (6.2.2):
+    - UMengUShare/Core
+  - UMengUShare/Social/GooglePlus (6.2.2):
+    - UMengUShare/Core
+  - UMengUShare/Social/Instagram (6.2.2):
+    - UMengUShare/Core
+  - UMengUShare/Social/Kakao (6.2.2):
+    - UMengUShare/Core
+  - UMengUShare/Social/LaiWang (6.2.2):
+    - UMengUShare/Core
+  - UMengUShare/Social/Line (6.2.2):
+    - UMengUShare/Core
+  - UMengUShare/Social/Linkedin (6.2.2):
+    - UMengUShare/Core
+  - UMengUShare/Social/Pinterest (6.2.2):
+    - UMengUShare/Core
+  - UMengUShare/Social/Pocket (6.2.2):
+    - UMengUShare/Core
+  - UMengUShare/Social/QQ (6.2.2):
+    - UMengUShare/Core
+  - UMengUShare/Social/Renren (6.2.2):
+    - UMengUShare/Core
+  - UMengUShare/Social/Sina (6.2.2):
+    - UMengUShare/Core
+  - UMengUShare/Social/SMS (6.2.2):
+    - UMengUShare/Core
+  - UMengUShare/Social/TencentWeibo (6.2.2):
+    - UMengUShare/Core
+  - UMengUShare/Social/Tumblr (6.2.2):
+    - UMengUShare/Core
+  - UMengUShare/Social/Twitter (6.2.2):
+    - UMengUShare/Core
+  - UMengUShare/Social/VKontakte (6.2.2):
+    - UMengUShare/Core
+  - UMengUShare/Social/WeChat (6.2.2):
+    - UMengUShare/Core
+  - UMengUShare/Social/WhatsApp (6.2.2):
+    - UMengUShare/Core
+  - UMengUShare/Social/YiXin (6.2.2):
+    - UMengUShare/Core
+  - UMengUShare/Social/YouDao (6.2.2):
+    - UMengUShare/Core
+  - UMengUShare/UI (6.2.2):
+    - UMengUShare/Core
+
+DEPENDENCIES:
+  - UMengUShare/Plugin/IDFA
+  - UMengUShare/Social/AlipayShare
+  - UMengUShare/Social/DingDing
+  - UMengUShare/Social/Douban
+  - UMengUShare/Social/DropBox
+  - UMengUShare/Social/Email
+  - UMengUShare/Social/EverNote
+  - UMengUShare/Social/Facebook
+  - UMengUShare/Social/Flickr
+  - UMengUShare/Social/GooglePlus
+  - UMengUShare/Social/Instagram
+  - UMengUShare/Social/Kakao
+  - UMengUShare/Social/LaiWang
+  - UMengUShare/Social/Line
+  - UMengUShare/Social/Linkedin
+  - UMengUShare/Social/Pinterest
+  - UMengUShare/Social/Pocket
+  - UMengUShare/Social/QQ
+  - UMengUShare/Social/Renren
+  - UMengUShare/Social/Sina
+  - UMengUShare/Social/SMS
+  - UMengUShare/Social/TencentWeibo
+  - UMengUShare/Social/Tumblr
+  - UMengUShare/Social/Twitter
+  - UMengUShare/Social/VKontakte
+  - UMengUShare/Social/WeChat
+  - UMengUShare/Social/WhatsApp
+  - UMengUShare/Social/YiXin
+  - UMengUShare/Social/YouDao
+  - UMengUShare/UI
+
+SPEC CHECKSUMS:
+  UMengUShare: fc0a98b8d5297632e82874318fd72a10d17da228
+
+PODFILE CHECKSUM: deed8ac9b70dfcf9a6b11e74dae995b227cddd0c
+
+COCOAPODS: 1.0.1

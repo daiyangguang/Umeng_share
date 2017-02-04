@@ -12,9 +12,12 @@
 		AEA3B4F41E4567A0008C9218 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEA3B4F21E4567A0008C9218 /* Main.storyboard */; };
 		AEA3B4F61E4567A0008C9218 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEA3B4F51E4567A0008C9218 /* Assets.xcassets */; };
 		AEA3B4F91E4567A0008C9218 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEA3B4F71E4567A0008C9218 /* LaunchScreen.storyboard */; };
+		FC349688FBC617F2095D9BDB /* libPods-Umeng_share.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CB95FBB79648A59A30D8845 /* libPods-Umeng_share.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		794616D7FBFF77EEF01A61E3 /* Pods-Umeng_share.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Umeng_share.release.xcconfig"; path = "Pods/Target Support Files/Pods-Umeng_share/Pods-Umeng_share.release.xcconfig"; sourceTree = "<group>"; };
+		9CB95FBB79648A59A30D8845 /* libPods-Umeng_share.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Umeng_share.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEA3B4EB1E4567A0008C9218 /* Umeng_share.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Umeng_share.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEA3B4EE1E4567A0008C9218 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AEA3B4F01E4567A0008C9218 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		AEA3B4F51E4567A0008C9218 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AEA3B4F81E4567A0008C9218 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AEA3B4FA1E4567A0008C9218 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D53CB5EFDD5F39D01EB82355 /* Pods-Umeng_share.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Umeng_share.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Umeng_share/Pods-Umeng_share.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +33,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC349688FBC617F2095D9BDB /* libPods-Umeng_share.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A918799A8BF9A3209E0E1031 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9CB95FBB79648A59A30D8845 /* libPods-Umeng_share.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AEA3B4E21E45679F008C9218 = {
 			isa = PBXGroup;
 			children = (
 				AEA3B4ED1E4567A0008C9218 /* Umeng_share */,
 				AEA3B4EC1E4567A0008C9218 /* Products */,
+				ED379262148443C6AE486369 /* Pods */,
+				A918799A8BF9A3209E0E1031 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +79,15 @@
 			path = Umeng_share;
 			sourceTree = "<group>";
 		};
+		ED379262148443C6AE486369 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D53CB5EFDD5F39D01EB82355 /* Pods-Umeng_share.debug.xcconfig */,
+				794616D7FBFF77EEF01A61E3 /* Pods-Umeng_share.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +95,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AEA3B4FD1E4567A0008C9218 /* Build configuration list for PBXNativeTarget "Umeng_share" */;
 			buildPhases = (
+				019A59FEE25C797EDB09F9BF /* [CP] Check Pods Manifest.lock */,
 				AEA3B4E71E4567A0008C9218 /* Sources */,
 				AEA3B4E81E4567A0008C9218 /* Frameworks */,
 				AEA3B4E91E4567A0008C9218 /* Resources */,
+				092D6A010D7AE43A2234FB75 /* [CP] Embed Pods Frameworks */,
+				5C3EF7D2946ED8A9AAFC6B51 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,6 +157,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		019A59FEE25C797EDB09F9BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		092D6A010D7AE43A2234FB75 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Umeng_share/Pods-Umeng_share-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C3EF7D2946ED8A9AAFC6B51 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Umeng_share/Pods-Umeng_share-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AEA3B4E71E4567A0008C9218 /* Sources */ = {
@@ -256,6 +331,7 @@
 		};
 		AEA3B4FE1E4567A0008C9218 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D53CB5EFDD5F39D01EB82355 /* Pods-Umeng_share.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Umeng_share/Info.plist;
@@ -268,6 +344,7 @@
 		};
 		AEA3B4FF1E4567A0008C9218 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 794616D7FBFF77EEF01A61E3 /* Pods-Umeng_share.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Umeng_share/Info.plist;
@@ -297,6 +374,7 @@
 				AEA3B4FF1E4567A0008C9218 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
